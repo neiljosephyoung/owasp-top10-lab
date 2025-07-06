@@ -73,19 +73,4 @@ README.md               # This file
 
 ---
 
-## Contributing
 
-Contributions are welcome! Feel free to open issues or submit pull requests to improve demos or add more OWASP Top 10 examples.
-
----
-
-## License
-
-MIT License — See [LICENSE](LICENSE) file for details.
-
----
-
-## Contact
-
-Created by Neil Joseph Young  
-GitHub: [neiljosephyoung](https://github.com/neiljosephyoung)
