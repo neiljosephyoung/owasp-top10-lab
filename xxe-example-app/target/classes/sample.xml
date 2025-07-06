@@ -1,0 +1,3 @@
+<secret>
+    <data>oh no XXE injection is enabled !!!</data>
+</secret>
