@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+
+<!-- Vulnerable fragment: uses th:utext (unescaped HTML output) -->
+<div th:fragment="commentDisplayFragment">
+    <p th:utext="${userComment}">Your comment will appear here.</p>
+</div>
+
+<!-- Safe fragment: uses th:text (escaped HTML output) -->
+<div th:fragment="safeCommentDisplayFragment">
+    <p th:text="${userComment}">Your comment will appear here.</p>
+</div>
+
+</body>
+</html>
