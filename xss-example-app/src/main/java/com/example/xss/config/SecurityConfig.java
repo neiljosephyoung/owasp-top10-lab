@@ -1,4 +1,4 @@
-package com.example.xss.Config;
+package com.example.xss.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
