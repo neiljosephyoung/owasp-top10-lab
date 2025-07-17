@@ -1,22 +1,3 @@
-# OWASP Top 10 Demo - Spring Boot Vulnerabilities Lab
-
-This project demonstrates some of the OWASP Top 10 web application security vulnerabilities using a simple Spring Boot app.  
-It’s designed as a learning and testing playground for security flaws such as **XSS**, **SQL Injection**, and more.
-
----
-
-## Features
-
-- **Vulnerable and Secure Endpoints** showcasing:
-  - SQL Injection (unsafe vs parameterized queries)
-  - Cross-Site Scripting (XSS) with `th:utext` vs safe `th:text`
-  - Basic login endpoint vulnerable to logic flaws
-- Dockerized PostgreSQL instance for testing injection attacks
-- HTMX integration for interactive demo forms
-- Simple UI with examples and explanations
-
----
-
 # OWASP Top 10 Lab (Spring Boot)
 
 This project demonstrates several common web application security vulnerabilities based on the [OWASP Top 10](https://owasp.org/Top10/). Each subfolder contains a standalone Spring Boot application vulnerable to a specific issue.
